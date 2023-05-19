@@ -17,8 +17,8 @@ function App() {
       <Container>
         <Paper sx={{display : 'flex', justifyContent : 'center', alignItems : 'center', marginTop : '25vh', p : 1}}>
           <Container sx={{display : 'flex'}}>
-            <Box>
-              <Typography variant="h4">
+            <Box sx={{p : 1}}>
+              <Typography letterSpacing={2} fontSize={26} fontWeight={'bold'} variant="h5">
                 Questions and Answers about Login
               </Typography>
             </Box>

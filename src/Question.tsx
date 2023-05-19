@@ -23,10 +23,10 @@ const Question = ({ title, info }: QuestionProp) => {
 
   return (
     <>
-      <Container>
+      <Container sx={{m : 1, p : 1}}>
         <Accordion>
           <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-            <Typography variant="h6" gutterBottom>
+            <Typography letterSpacing={1} fontSize={18} fontWeight={"bold"} variant="h6" gutterBottom>
               {title}
             </Typography>
           </AccordionSummary>
